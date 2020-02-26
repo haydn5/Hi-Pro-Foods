@@ -10,7 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "../css/custom.css"
+import { Container } from 'react-bootstrap';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,20 +28,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <main>{children}</main>
+      <footer>
+        <Container className="text-center">
+          <h2>Call toll free today</h2>
+          <p>(866) 735-5692</p>
+          <p>© {new Date().getFullYear()} - Hi Pro Foods of Iowa, Corp | All Rights Reserved<br />
+          Site designed by <a href="https://www.nautilusdesigns.com">Nautilus Designs</a></p>
+        </Container>
+      </footer>
     </>
   )
 }
