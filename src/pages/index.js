@@ -8,6 +8,12 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import tukeyIndex from "../images/turkey-index.jpg"
 import orgImage from "../images/org-placeholder.jpg"
 
+const Organization = (props) => (
+  <Col lg={3} sm={4}>
+      <p><Image src={props.image} alt={props.alt} fluid /></p>
+  </Col>
+)
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Let's Talk Turkey!" />
@@ -34,33 +40,17 @@ const IndexPage = () => (
       </Row>
     </Container>
     <div className="lightBG">
-      <Container>
-        <h2 className="text-center">We're members of the following organizations</h2>
+      <Container className="text-center">
+        <h2>We're members of the following organizations</h2>
         <Row>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
-          <Col lg={3} sm={4}>
-            <p><Image src={orgImage} alt="Placeholder" fluid /></p>
-          </Col>
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={orgImage} alt="Tukey Time!" />
         </Row>
       </Container>
     </div>
