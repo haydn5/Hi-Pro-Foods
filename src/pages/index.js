@@ -8,6 +8,11 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import tukeyIndex from "../images/turkey-index.jpg"
 import orgImage from "../images/org-placeholder.jpg"
 
+import iowaturkey from "../images/logos/iowa-turkey-fed.jpg"
+import nationalturkey from "../images/logos/national-turkey-fed.jpg"
+import npfda from "../images/logos/npfda.png"
+import usaPoulty from "../images/logos/usa-poultry.png"
+
 const Organization = (props) => (
   <Col lg={3} sm={4} xs={6}>
       <p><Image src={props.image} alt={props.alt} fluid /></p>
@@ -43,14 +48,10 @@ const IndexPage = () => (
       <Container className="text-center">
         <h2>We're members of the following organizations</h2>
         <Row>
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
-          <Organization image={orgImage} alt="Tukey Time!" />
+          <Organization image={iowaturkey} alt="Iowa Turkey Federation" />
+          <Organization image={nationalturkey} alt="National Turkey Federation" />
+          <Organization image={npfda} alt="NPFDA" />
+          <Organization image={usaPoulty} alt="USA Council Egg & Poultry" />
         </Row>
       </Container>
     </div>
