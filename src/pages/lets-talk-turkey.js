@@ -11,7 +11,7 @@ import { Container } from 'react-bootstrap';
 
 const blog = () => (
   <Layout>
-    <SEO title="Duck, Capon, and Pork" />
+    <SEO title="Let's Talk Turkey" />
     <Container className="singleCol">
       <h1>Welcome</h1>
       <p>Posted: August 22, 2018 at 5:11 PM in Turkey</p>
