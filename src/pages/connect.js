@@ -37,7 +37,7 @@ const connectPage = () => (
         </Col>
         <Col lg={6}>
         <Form 
-                    name="contact v9"
+                    name="contact v1"
                     method="post"
                     action="/connect-thank-you/"
                     data-netlify="true"
