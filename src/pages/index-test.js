@@ -4,7 +4,7 @@ import React from "react"
 // import Layout from "../components/layout"
 // import Image from "../components/image"
 // import SEO from "../components/seo"
-import { Container, Col, Image } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 // import tukeyIndex from "../images/turkey-index.jpg"
 // import orgImage from "../images/org-placeholder.jpg"
 

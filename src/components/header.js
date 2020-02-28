@@ -1,22 +1,36 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from "../images/hi-pro-logo-no-white.png"
+import logo from "../images/hi-pro-logo-with-text.png"
 
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar, Row, Col, Image } from 'react-bootstrap';
 
 const Header = ({ siteTitle }) => (
   <header>
-    <Container>
-        <Navbar className="navbar" id="mainNav" expand="md" collapseOnSelect={true}>
-          
-            <Link className="navbar-brand">
-              <img src={logo} alt={ siteTitle } className="imgFullCol" width="200" />
-            </Link>
-            <Navbar.Toggle aria-controls="navbarResponsive"/>
+
+<Container>
+      <Row>
+        <Col lg={12} className="text-center">
+          <Link to="/">
+            <Image src={logo} alt={siteTitle} className="maxLogoWidth" fluid />
+          </Link>
+        </Col>
+        <Col lg={12}>
+
+        
+      
+      <Nav className="justify-content-center" activeKey="/">
+        <Navbar fluid
+          className="navbar justify-content-center navbar-light" 
+          id="mainNav"
+          expand="lg"
+          collapseOnSelect={true}
+        >
+          <Navbar.Toggle aria-controls="navbarResponsive"/>
             <Navbar.Collapse id="navbarResponsive">
-              <Nav className="navbar-nav" >
-              <ul className="navbar-nav  text-center">
+              <Nav className="navbar-nav text-center">
+                <ul className="navbar-nav justify-content-center text-center">
+                  
                 <li><Link to="/about" className="nav-link" activeClassName="active">About</Link></li>
                 <li><Link to="/turkey" className="nav-link" activeClassName="active">Turkey</Link></li>
                 <li><Link to="/chicken" className="nav-link" activeClassName="active">Chicken</Link></li>
@@ -25,10 +39,28 @@ const Header = ({ siteTitle }) => (
                 <li><Link to="/connect" className="nav-link" activeClassName="active">Connect</Link></li>
               </ul>
               </Nav>
-            </Navbar.Collapse>
+              </Navbar.Collapse>
+              </Navbar>
+      </Nav>
+
+      </Col>
+      </Row>
+  
           
-        </Navbar>
-        </Container>
+            
+            
+            
+              
+              
+
+    </Container>
+
+
+
+
+
+
+    
   </header>
 )
 

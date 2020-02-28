@@ -9,7 +9,7 @@ import tukeyIndex from "../images/turkey-index.jpg"
 import orgImage from "../images/org-placeholder.jpg"
 
 const Organization = (props) => (
-  <Col lg={3} sm={4}>
+  <Col lg={3} sm={4} xs={6}>
       <p><Image src={props.image} alt={props.alt} fluid /></p>
   </Col>
 )
