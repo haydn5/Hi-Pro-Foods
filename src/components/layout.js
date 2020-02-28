@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
       <footer>
         <Container className="text-center">
           <h2>Call toll free today</h2>
-          <p>(866) 735-5692</p>
+          <p>(866) 735-8692</p>
           <p>© {new Date().getFullYear()} - Hi Pro Foods of Iowa, Corp | All Rights Reserved<br />
           Site designed by <a href="https://www.nautilusdesigns.com">Nautilus Designs</a></p>
         </Container>

@@ -79,7 +79,19 @@ const turkeyPage = () => (
           </ul>
           <h3>ABF Raw Bulk Product</h3>
           <ul>
-
+            <li>Netted Breast Roast 9#, 2/case</li>
+            <li>Ground Turkey- Bulk 10#, 2/case</li>
+            <li>Burger Patties 4 oz, 40/case</li>
+            <li>Breast Tenderloins 10#/case</li>
+            <li>Boneless/Skinless Breast 40#/case</li>
+            <li>Boneless/Skinless Thigh 40#/case</li>
+            <li>Boneless/Skin-on Thigh 40#/case</li>
+            <li>Diced Thigh Meat 5#, 6/case</li>
+            <li>Drumsticks 30#/case</li>
+            <li>Necks 30#/case</li>
+            <li>Gizzards 30#/case</li>
+            <li>Hearts 30#/case</li>
+            <li>Livers 30#/case</li>
           </ul>
         </Col>
         <Col lg={6}>
@@ -93,6 +105,8 @@ const turkeyPage = () => (
             <li>12-14# Smoked Hen Turkeys (4Hd/Box)</li>
             <li>4-8# Smoked Turkey Breast (6Hd/Box)</li>
           </ul>
+          <h2>ABF Cooked Retail Ready Product</h2>
+          
           <ul>
             <li>Smoked Whole Turkey 8-10 lbs, 2/case</li>
             <li>Smoked Turkey Breast- Retail 1-1.5 lbs, 6/case</li>
@@ -104,14 +118,13 @@ const turkeyPage = () => (
             <li>Pepperjack Turkey Sticks 8 oz, 20pk/case</li>
             <li>Teriyaki Turkey Sticks 4.5 oz 16pk/case</li>
             <li>Bites 0.5 lbs, 50pk/case</li>
-          </ul>
-          <ul>
             <li>Smoked Turkey Breast- Bulk 5 lbs, 6/case</li>
             <li>Oven Roasted Breast- Bulk 5 lbs, 6/case</li>
             <li>Weiners 25 pieces, 6pk/case</li>
             <li>Cocktail Wieners 5 lbs, 4/case</li>
             <li>Fully Cooked Turkey Burgers 2.5 oz patty, 10 lbs/case</li>
           </ul>
+          
         </Col>
       </Row>
     </Container>
