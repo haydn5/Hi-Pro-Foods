@@ -8,7 +8,7 @@ import { Container, Row, Col, Form, Button, Image } from 'react-bootstrap';
 import mapImage from "../images/map-long-horizontal.jpg"
 
 
-const turkeyPage = () => (
+const connectPage = () => (
   <Layout>
     <SEO title="Connect With Us" />
     <Container>
@@ -105,4 +105,4 @@ const turkeyPage = () => (
   </Layout>
 )
 
-export default turkeyPage
+export default connectPage

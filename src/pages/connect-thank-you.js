@@ -4,11 +4,11 @@ import React from "react"
 import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
-import { Container, Row, Col, Form, Button, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import mapImage from "../images/map-long-horizontal.jpg"
 
 
-const turkeyPage = () => (
+const connectThankYouPage = () => (
   <Layout>
     <SEO title="Connect With Us" />
     <Container>
@@ -47,4 +47,4 @@ const turkeyPage = () => (
   </Layout>
 )
 
-export default turkeyPage
+export default connectThankYouPage
