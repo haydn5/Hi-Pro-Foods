@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import tukeyIndex from "../images/turkey-index.jpg"
-import orgImage from "../images/org-placeholder.jpg"
+// import orgImage from "../images/org-placeholder.jpg"
 
 import iowaturkey from "../images/logos/iowa-turkey-fed.jpg"
 import nationalturkey from "../images/logos/national-turkey-fed.jpg"

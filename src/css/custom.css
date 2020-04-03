@@ -20,6 +20,12 @@ header {
     padding-right: 20px;
 }
 
+@media (max-width: 500px) {
+    .maxLogoWidth {
+        max-width: 100%;
+    }
+}
+
 .lightBG {
     background-color: #f8f0eb;
     padding: 20px 0px;
